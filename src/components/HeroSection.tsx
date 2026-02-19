@@ -95,7 +95,7 @@ export default function HeroSection() {
 
                 <div className="flex gap-6 pt-6">
                   <a
-                    href="https://t.me/"
+                    href="https://t.me/RomanNaidenko123"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-transform hover:scale-105"
