@@ -3,9 +3,9 @@ import { cn } from '@/lib/utils';
 import Icon from '@/components/ui/icon';
 
 const images = [
-  'https://cdn.poehali.dev/projects/a38f2b10-ee8c-4e6c-9165-d673d9b1adbe/files/bef8809a-256a-471d-8212-20b80511369b.jpg',
-  'https://cdn.poehali.dev/projects/a38f2b10-ee8c-4e6c-9165-d673d9b1adbe/files/713cd26f-0106-45f5-a5bd-f42fb2d5897f.jpg',
-  'https://cdn.poehali.dev/projects/a38f2b10-ee8c-4e6c-9165-d673d9b1adbe/files/6025fe40-fee4-49b3-840e-44b939a0adbe.jpg',
+  '/modern-white-architecture.jpg',
+  '/modern-design-studio-black-and-white-aesthetic.jpg',
+  '/minimalist-creative-workspace-black-and-white.jpg',
 ];
 
 const services = [
@@ -60,7 +60,7 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-56 md:w-56">
                 <img
-                  src="https://cdn.poehali.dev/projects/a38f2b10-ee8c-4e6c-9165-d673d9b1adbe/files/ca4b5030-601e-4555-9533-416adf61cf32.jpg"
+                  src="/jessin-portrait.png"
                   alt="Агент по недвижимости в Белгороде"
                   className="h-full w-full object-cover"
                 />
@@ -111,7 +111,7 @@ export default function HeroSection() {
                     Написать в Telegram
                   </a>
                   <a
-                    href="tel:+7"
+                    href="tel:+79194383050"
                     className="flex items-center gap-2 rounded-full border-2 border-white/40 px-6 py-3 text-sm font-medium text-white transition-colors hover:border-white hover:bg-white/10"
                   >
                     <Icon name="Phone" size={18} />
